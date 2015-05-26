@@ -1,0 +1,10 @@
+{
+  "name": "ChatBot",
+  "description": "IRC Chat Bot",
+  "version": "1.0.0",
+  "private": true,
+  "main": "app.coffee",
+  "dependencies": {
+    "coffee-script": "^1.7.1"
+  }
+}

@@ -1,0 +1,17 @@
+[
+    {
+        "name": "quit",
+        "command": "QUIT",
+        "perm": true
+    },
+    {
+        "name": "ask",
+        "command": "PRIVMSG %C foo",
+        "perm": true
+    },
+    {
+        "name": "g",
+        "command": "PRIVMSG %C GOOGLE(%M)",
+        "perm": true
+    }
+]

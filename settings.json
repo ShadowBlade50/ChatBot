@@ -1,0 +1,30 @@
+{
+    "admins": [
+        "ShadowBlade",
+        "hotel"
+    ],
+    "macros": [
+        {
+            "name": "GOOGLE",
+            "args": "text",
+            "action": "_GOOGLE(text)"
+        }
+    ],
+    "commands": [
+        {
+            "name": "quit",
+            "command": "QUIT",
+            "perm": true
+        },
+        {
+            "name": "ask",
+            "command": "PRIVMSG %C foo",
+            "perm": true
+        },
+        {
+            "name": "google",
+            "command": "PRIVMSG %C GOOGLE(%M)",
+            "perm": true
+        }
+    ]
+}
